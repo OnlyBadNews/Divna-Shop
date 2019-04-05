@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Home\About.cshtml" />
+    <Content Remove="Views\Home\Men.cshtml" />
+    <Content Remove="Views\Home\Women.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\About.cshtml" />
+    <None Include="Views\Home\Men.cshtml" />
+    <None Include="Views\Home\Women.cshtml" />
     <None Include="wwwroot\.sass-cache\060b528537134f2f9508a1cf1546b6a2908e8035\_alerts.scssc" />
     <None Include="wwwroot\.sass-cache\060b528537134f2f9508a1cf1546b6a2908e8035\_badges.scssc" />
     <None Include="wwwroot\.sass-cache\060b528537134f2f9508a1cf1546b6a2908e8035\_breadcrumbs.scssc" />
