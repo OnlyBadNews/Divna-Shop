@@ -6,6 +6,11 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>E:\DivnaShoes\Divna-Shop\ShoesShop\ShoesShop.xml</DocumentationFile>
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <Content Remove="Views\Home\About.cshtml" />
     <Content Remove="Views\Home\Men.cshtml" />

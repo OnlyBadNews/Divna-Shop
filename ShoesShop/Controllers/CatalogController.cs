@@ -17,13 +17,20 @@ namespace ShoesShop.Controllers
         {
             _context = context;
         }
-
+        /// <summary>
+        /// This method is used for transfering data from client to server when the "Catalog" menu is selected.
+        /// </summary>
+        /// <returns></returns>
         // GET: Catalog
         public async Task<IActionResult> Index()
         {
             return View(await _context.Catalog.ToListAsync());
         }
-
+        /// <summary>
+        /// This method is used for transfering data from client to server when the "Catalog/Details" menu is selected.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         // GET: Catalog/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -41,13 +48,20 @@ namespace ShoesShop.Controllers
 
             return View(catalog);
         }
-
+        /// <summary>
+        /// This method is used for transfering data from client to server when the "Catalog/Create" menu is selected.
+        /// </summary>
+        /// <returns></returns>
         // GET: Catalog/Create
         public IActionResult Create()
         {
             return View();
         }
-
+        /// <summary>
+        /// This method is used for transfering data from client to server when the "Catalog/Create" menu is selected.
+        /// </summary>
+        /// <param name="catalog"></param>
+        /// <returns></returns>
         // POST: Catalog/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -63,7 +77,11 @@ namespace ShoesShop.Controllers
             }
             return View(catalog);
         }
-
+        /// <summary>
+        /// This method is used for transfering data from client to server when the "Catalog/Edit" menu is selected.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         // GET: Catalog/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -79,7 +97,12 @@ namespace ShoesShop.Controllers
             }
             return View(catalog);
         }
-
+        /// <summary>
+        /// This method is used for transfering data from client to server when the "Catalog/Edit" menu is selected.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="catalog"></param>
+        /// <returns></returns>
         // POST: Catalog/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -114,7 +137,11 @@ namespace ShoesShop.Controllers
             }
             return View(catalog);
         }
-
+        /// <summary>
+        /// This method is used for transfering data from client to server when the "Catalog/Delete" menu is selected.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         // GET: Catalog/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -132,7 +159,11 @@ namespace ShoesShop.Controllers
 
             return View(catalog);
         }
-
+        /// <summary>
+        /// This method is used for transfering data from client to server when the "Catalog/Delete" menu is selected.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         // POST: Catalog/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

@@ -14,27 +14,38 @@ namespace ShoesShop.Controllers
         {
             return View();
         }
-
+        /// <summary>
+        ///  This class gets called when the "Privacy" section is selected.
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Privacy()
         {
             return View();
         }
-
+        /// <summary>
+        ///  This class gets called when the "About" section is selected.
+        /// </summary>
+        /// <returns></returns>
         public IActionResult About()
         {
             return View();
         }
-
+        /// <summary>
+        /// This class gets called when the "Men" section is selected.
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Men()
         {
             return View();
         }
-
+        /// <summary>
+        /// This class gets called when the "Women" section is selected.
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Women()
         {
             return View();
         }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

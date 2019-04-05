@@ -16,7 +16,11 @@ namespace ShoesShop
         {
             CreateWebHostBuilder(args).Build().Run();
         }
-
+        /// <summary>
+        /// This method gets called when the program starts
+        /// </summary>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();

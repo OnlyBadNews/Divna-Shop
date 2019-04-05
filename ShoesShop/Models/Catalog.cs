@@ -4,7 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace ShoesShop.Models
-{
+{   /// <summary>
+   /// This class gets called when "Catalog" section is selected. 
+  /// </summary>
     public class Catalog
     {
         public int ID { get; set; }
