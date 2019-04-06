@@ -147,3 +147,11 @@ E:\DivnaShoes\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.dll
 E:\DivnaShoes\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.pdb
 E:\DivnaShoes\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.csproj.CopyComplete
 E:\DivnaShoes\Divna-Shop\ShoesShop\bin\Debug\netcoreapp2.2\ShoesShop.xml
+C:\Users\sveto\Desktop\Divna-Shop\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.csprojAssemblyReference.cache
+C:\Users\sveto\Desktop\Divna-Shop\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.csproj.CoreCompileInputs.cache
+C:\Users\sveto\Desktop\Divna-Shop\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.RazorAssemblyInfo.cache
+C:\Users\sveto\Desktop\Divna-Shop\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.RazorAssemblyInfo.cs
+C:\Users\sveto\Desktop\Divna-Shop\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.AssemblyInfoInputs.cache
+C:\Users\sveto\Desktop\Divna-Shop\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.AssemblyInfo.cs
+C:\Users\sveto\Desktop\Divna-Shop\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.dll
+C:\Users\sveto\Desktop\Divna-Shop\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.pdb
