@@ -155,3 +155,5 @@ C:\Users\Yavor\Documents\GitHub\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\Sho
 C:\Users\Yavor\Documents\GitHub\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.AssemblyInfo.cs
 C:\Users\Yavor\Documents\GitHub\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.dll
 C:\Users\Yavor\Documents\GitHub\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.pdb
+D:\GitHub\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.dll
+D:\GitHub\Divna-Shop\ShoesShop\obj\Debug\netcoreapp2.2\ShoesShop.pdb
