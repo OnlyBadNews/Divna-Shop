@@ -18,6 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ShoesShop.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="Views\Home\About.cshtml" />
     <None Include="Views\Home\Men.cshtml" />
     <None Include="Views\Home\Women.cshtml" />
